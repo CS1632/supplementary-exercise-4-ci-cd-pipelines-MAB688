@@ -74,9 +74,6 @@ jobs:
     name: Build and analyze
     needs: [maven_test]
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
     
     steps:
     - name: Restore cached build
