@@ -76,10 +76,9 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
+      contents: write
     
     steps:
-    
     - name: Restore cached build
       uses: actions/cache@v3
       with:
